@@ -141,11 +141,28 @@ p {
 
 .button-na{
   background-color: var(--coklat-1);
-  color: var(--coklat-2);
+  color: white;
 }
 
 .steporder{
   background-color: var(--krem-2);
+}
+
+.text-so{
+  color: var(--pink-1);
+  text-shadow: 
+  3px 3px 0 rgba(255, 255, 255, 1), 
+  -3px -3px 0 rgba(255, 255, 255, 1),
+  3px -3px 0 rgba(255, 255, 255, 1),
+  -3px 3px 0 rgba(255, 255, 255, 1);
+}
+
+.card-so{
+  background-color: var(--pink-1);
+}
+
+.img-card-so{
+  background-color: var(--coklat-1);
 }
 
 
