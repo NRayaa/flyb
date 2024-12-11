@@ -1,19 +1,10 @@
 import Header from '@/components/header'
 import TextTitle from '@/components/texttitle'
 import Title from '@/components/title'
-import Link from 'next/link'
 import React from 'react'
 import Divider from '@/components/divider'
 import Collection from '@/components/collection'
 import Banner from '@/components/banner'
-import { Card, CardContent } from "@/components/ui/card"
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-} from "@/components/ui/carousel"
 import Newarrival from '@/components/newarrival'
 
 const Home = () => {
