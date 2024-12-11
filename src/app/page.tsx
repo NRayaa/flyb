@@ -6,6 +6,7 @@ import Divider from '@/components/divider'
 import Collection from '@/components/collection'
 import Banner from '@/components/banner'
 import Newarrival from '@/components/newarrival'
+import Dividertwo from '@/components/dividertwo'
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
                 <Title></Title>
 
                 <TextTitle></TextTitle>
-                <div className="absolute w-full z-[5] -bottom-[3.5rem] lg:-bottom-[4.1rem] -left-0 sm:left-[0.3rem]">
+                <div className="absolute w-full z-[5] -bottom-[3.5rem] lg:-bottom-[3.5rem] -left-0 sm:left-[0.2rem]">
                     <img src="/img/4.png" className="h-full w-full object-cover" alt="" />
                 </div>
             </div>
@@ -35,6 +36,16 @@ const Home = () => {
 
             {/* New Arrival */}
             <Newarrival></Newarrival>
+
+            {/* Divider Two */}
+            <Dividertwo></Dividertwo>
+
+            {/* Step */}
+            <div className="steporder relative">
+                
+            </div>
+
+
         </div>
     )
 }
