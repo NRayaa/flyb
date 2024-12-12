@@ -28,6 +28,7 @@
 
   --coklat-1: #d97e83;
   --coklat-2: #ebb840;
+  --coklat-3: #e69b9e;
 
   --green-1: #95d2b3;
   --green-2: #55ad9b;
@@ -164,6 +165,20 @@ p {
 .img-card-so{
   background-color: var(--coklat-1);
 }
+
+.faqno{
+  background-color: var(--coklat-3);
+}
+
+.cardfaq{
+  background-color: var(--krem-4);
+  box-shadow: -10px -10px 0px #FFFFFF;
+}
+
+.faqtxt{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 
 
 
